@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BaiMiWaiter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- login界面 Start -->
+    <string name="baimi_logo">百米生活，就在你身边！</string>
+    <string name="login_title">百米商户登录</string>    
+    <string name="login_username">用户名:</string>
+    <string name="login_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="login_passwd">"密    码:"</string>
+    <string name="login_verify">"验证码:"</string>
+	<string name="login_verify_replace">"换一张"</string>
+	<string name="login">"登    录"</string>
+	<!-- login界面 End -->
+	
+	<!-- Toast Start-->
+	<string name="please_input_username">"请输入用户名！"</string>
+	<string name="please_input_passwd">"请输入密码！"</string>	
+	<string name="please_input_verifycode">"请输入验证码！"</string>
+	<!-- Toast End-->
+	
+	<!-- 网络提示Dialog Start -->
+	<string name="network_dialog_title">"网络提示！"</string>
+	<string name="network_dialog_message">"网络不可用，请先设置网络！"</string>
+	<string name="network_dialog_setting_button">"设置"</string>
+	<string name="network_dialog_cancel_button">"取消"</string>
+	<!-- 网络提示Dialog End -->
+	
+	<!-- TTS Dialog Start -->
+	<string name="tts_dialog_title">"TTS引擎数据错误!"</string>
+	<string name="tts_dialog_message">"是否尝试重装TTS引擎数据到设备上？"</string>
+	<string name="tts_dialog_verigy_button">"是"</string>
+	<string name="tts_dialog_cancel_button">"否"</string>
+	<!-- TTS Dialog End -->
+</resources>

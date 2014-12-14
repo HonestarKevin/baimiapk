@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical" >
+
+    <!-- 百米logo Start -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/h001logo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/h003line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/baimi_logo"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <!-- 百米logo End -->
+
+
+    <!-- 百米login窗口 Start -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_title"
+            android:textSize="25sp" />
+        <!-- 用户名 Start -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_username"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/login_username_edittext"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+        </LinearLayout>
+        <!-- 用户名 End -->
+
+
+        <!-- 密码 Start -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_passwd"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/login_passwd_edit_text"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+        </LinearLayout>
+        <!-- 密码 End -->
+
+
+        <!-- 验证码 Start -->
+
+        <LinearLayout
+            android:id="@+id/verify_code_linelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_verify"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/login_verify_edittext"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/login_verify_button"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_background"
+                android:text="@string/login_verify_replace"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!-- 验证码 End -->
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <!-- 百米login窗口 End -->
+
+</LinearLayout>
